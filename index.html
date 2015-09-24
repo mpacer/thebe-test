@@ -27,7 +27,7 @@
     <script src="https://rawgit.com/oreillymedia/thebe/master/static/main-built.js" type="text/javascript" charset="utf-8"></script>
     <script>
         $(function(){
-            new Thebe({url:"http://localhost:8888"});
+            new Thebe({url:"http://localhost:8888/"});
         });
     </script>
 
@@ -55,22 +55,6 @@
 <ul class="simple">
 </ul>
 </div>
-</div>
-<div> 
-
-<pre data-code-language="python" data-executable="true" data-type="programlisting">
-%matplotlib inline
-import matplotlib.pyplot as plt
-import numpy as np
-from IPython.html.widgets import interact
-
-def plot_sine(frequency=1.0, amplitude=1.0):
-    plt.ylim(-1.0, 1.0);
-    x = np.linspace(0, 10, 1000)
-    plt.plot(x, amplitude*np.sin(x*frequency));
-
-interact(plot_sine, frequency=(0.5, 10.0), amplitude=(0.0, 1.0));
-</pre>
 </div>
 <div class="section" id="indices-and-tables">
 <h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
