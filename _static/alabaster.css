@@ -15,6 +15,9 @@
 
 
 
+
+
+
 @import url("basic.css");
 
 /* -- page layout ----------------------------------------------------------- */
@@ -68,11 +71,9 @@ div.footer a {
     color: #888;
 }
 
-
-div.relations {
+div.related {
     display: none;
 }
-
 
 div.sphinxsidebar a {
     color: #444;
@@ -286,13 +287,6 @@ pre, tt, code {
     font-size: 0.9em;
 }
 
-.hll {
-    background-color: #FFC;
-    margin: 0 -12px;
-    padding: 0 12px;
-    display: block;
-}
-
 img.screenshot {
 }
 
@@ -386,8 +380,8 @@ pre {
 }
 
 dl pre, blockquote pre, li pre {
-    margin-left: 0;
-    padding-left: 30px;
+    margin-left: -60px;
+    padding-left: 60px;
 }
 
 dl dl pre {
@@ -526,6 +520,18 @@ a:hover tt, a:hover code {
         margin: 0;
     }
 
+    div.related {
+        display: block;
+        margin: 0;
+        padding: 10px 0 20px 0;
+    }
+
+    div.related ul,
+    div.related ul li {
+        margin: 0;
+        padding: 0;
+    }
+
     div.footer {
         display: none;
     }
@@ -577,9 +583,5 @@ div#changelog > div.section > ul > li > p:only-child {
 
 /* Hide fugly table cell borders in ..bibliography:: directive output */
 table.docutils.citation, table.docutils.citation td, table.docutils.citation th {
-  border: none;
-  /* Below needed in some edge cases; if not applied, bottom shadows appear */
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  border:none;
 }
