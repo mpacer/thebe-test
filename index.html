@@ -30,7 +30,7 @@
             new Thebe({
                 url: 'http://localhost:8888/',
                 kernel_name: 'python3',
-                selector: 'pre',
+                selector: 'pre.data-executable',
                 tmpnb_mode: false
             });
         });
@@ -47,10 +47,10 @@
   <div class="section" id="welcome-to-atest-s-documentation">
 <h1>Welcome to atest&#8217;s documentation!<a class="headerlink" href="#welcome-to-atest-s-documentation" title="Permalink to this headline">¶</a></h1>
 <p>Contents:</p>
-<div class="code python data-executable highlight-python"><div class="highlight"><pre>from __future__ import print_function
-import numpy as np
+<div class="code python data-executable highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 
-print(np.random.random(size=list(range(1:10))))
+<span class="k">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">))))</span>
 </pre></div>
 </div>
 <div class="toctree-wrapper compound">

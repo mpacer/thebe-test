@@ -15,7 +15,7 @@ Contents:
     from __future__ import print_function
     import numpy as np
 
-    print(np.random.random(size=list(range(1:10))))
+    print(np.random.random(size=list(range(1,5))))
 
 
 .. toctree::
