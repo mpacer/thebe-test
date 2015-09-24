@@ -10,7 +10,8 @@ Welcome to atest's documentation blah!
 Contents:
 
 .. code:: python
-    
+    :class: data-executable
+
     from __future__ import print_function
     import numpy as np
 
