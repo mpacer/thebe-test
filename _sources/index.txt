@@ -12,6 +12,17 @@ Contents:
    :maxdepth: 2
 
 
+.. code::python
+    
+    from __future__ import print_function
+    import numpy as np
+
+    print(np.random.random(size=list(range(1:10))))
+
+
+
+
+
 
 Indices and tables
 ==================
