@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to atest's documentation blah!
-======================================
+Welcome to atest's documentation!
+=================================
 
 
 Contents:
@@ -20,17 +20,6 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-
-
-.. code::python
-    
-    from __future__ import print_function
-    import numpy as np
-
-    print(np.random.random(size=list(range(1:10))))
-
-
-
 
 
 
