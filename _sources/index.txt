@@ -7,15 +7,15 @@ Welcome to atest's documentation blah!
 ======================================
 
 
+Contents:
 
-.. code::python
+.. code:: python
     
     from __future__ import print_function
     import numpy as np
 
     print(np.random.random(size=list(range(1:10))))
 
-Contents:
 
 .. toctree::
    :maxdepth: 2
