@@ -6,7 +6,7 @@
 Welcome to atest's documentation!
 =================================
 
-Changing  blah something to be recompiled.
+Changing something to be recompiled.
 
 Contents:
 
