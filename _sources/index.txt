@@ -6,7 +6,7 @@
 Welcome to atest's documentation!
 =================================
 
-Contents:
+Content:
 
 .. code:: python
     :class: data-executable
