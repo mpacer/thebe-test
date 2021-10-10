@@ -1,6 +1,6 @@
 # thebe-test
 
-This allows you to check out interactive code at http://michaelpacer.github.io/thebe-test/. 
+This allows you to check out interactive code at http://mpacer.github.io/thebe-test/. 
 
 You need to have jupyter installed(`pip install -U jupyter`) and run a notebook server from a place that does not modify the origin call from your browser (e.g., virtualenvs can mess this up):
 
